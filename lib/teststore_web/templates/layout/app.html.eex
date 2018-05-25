@@ -55,7 +55,7 @@
 		  <main class="sq-main">
 			  <%= render @view_module, @view_template, assigns %>
 		  </main>
-		  <footer class="sq-footer"></footer>
+		  <footer class=""></footer>
 	  </div>
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>

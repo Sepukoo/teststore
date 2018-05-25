@@ -3,13 +3,43 @@
 /* Homepage */
 
 .sq-homepage-slideshow{
-	grid-area: 1 / 2 / span 3 / span 7;
-	border: 1px solid black;
+	grid-area: 1 / 2 / span 3 / span 8;
 }
 .sq-homepage-infobar{
-	grid-area: 4 / 2 / span 1 / span 7;
+	grid-area: 4 / 2/ span 1 / span 8;
 	border-bottom: 1px solid black;
 }
+.sq-homepage-campaign1{
+	grid-area: 5 / 2 / span 1 / span 4;
+}
+
+.sq-homepage-campaign2{
+	grid-area: 5 / 6 / span 1 / span 4;
+}
+
+
+
 .sq-searchbar textarea{
 	width: 10rem;
+}
+
+
+.sq-p-card{
+	grid-column-end: span 2;
+	grid-row-end: span 2;
+}
+.sq-p-card:first-child{
+	grid-column-start: 2;
+}
+.sq-p-card:nth-child(4n+0){
+	grid-column-start: 8;
+}
+.sq-p-card:nth-child(4n+1){
+	grid-column-start: 6;
+}
+.sq-p-card:nth-child(4n+2){
+	grid-column-start: 4;
+}
+.sq-p-card:nth-child(4n+1){
+	grid-column-start: 2;
 }

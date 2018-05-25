@@ -1,4 +1,6 @@
-
+.sq-m-auto{
+	margin:auto;
+}
     /*    Air Start   */
     /* Air Top and bottom ( Y ) */
 .sq-air-y-05{margin: 0.5em 0em 0.5em 0em;}
