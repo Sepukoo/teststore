@@ -38,12 +38,81 @@
 			<button class="sq-btn" type="button" name="button">buy</button>
 		</div>
 	</div>
-	<div class="sq-p-card sq-card"></div>
-	<div class="sq-p-card sq-card"></div>
-	<div class="sq-p-card sq-card"></div>
-	<div class="sq-p-card sq-card"></div>
-	<div class="sq-p-card sq-card"></div>
-	<div class="sq-p-card sq-card"></div>
-	<div class="sq-p-card sq-card"></div>
-	<div class="sq-p-card sq-card"></div>
+	<div class="sq-p-card sq-card sq-panel">
+		<div class="sq-card-header">
+			Mug for sale
+		</div>
+		<div class="sq-card-body">
+			picture
+		</div>
+		<div class="sq-card-footer sq-container sq-justify-right">
+			<button class="sq-btn" type="button" name="button">buy</button>
+		</div>
+	</div>
+	<div class="sq-p-card sq-card sq-panel">
+		<div class="sq-card-header">
+			Mug for sale
+		</div>
+		<div class="sq-card-body">
+			picture
+		</div>
+		<div class="sq-card-footer sq-container sq-justify-right">
+			<button class="sq-btn" type="button" name="button">buy</button>
+		</div>
+	</div>
+	<div class="sq-p-card sq-card sq-panel">
+		<div class="sq-card-header">
+			Mug for sale
+		</div>
+		<div class="sq-card-body">
+			picture
+		</div>
+		<div class="sq-card-footer sq-container sq-justify-right">
+			<button class="sq-btn" type="button" name="button">buy</button>
+		</div>
+	</div>
+	<div class="sq-p-card sq-card sq-panel">
+		<div class="sq-card-header">
+			Mug for sale
+		</div>
+		<div class="sq-card-body">
+			picture
+		</div>
+		<div class="sq-card-footer sq-container sq-justify-right">
+			<button class="sq-btn" type="button" name="button">buy</button>
+		</div>
+	</div>
+	<div class="sq-p-card sq-card sq-panel">
+		<div class="sq-card-header">
+			Mug for sale
+		</div>
+		<div class="sq-card-body">
+			picture
+		</div>
+		<div class="sq-card-footer sq-container sq-justify-right">
+			<button class="sq-btn" type="button" name="button">buy</button>
+		</div>
+	</div>
+	<div class="sq-p-card sq-card sq-panel">
+		<div class="sq-card-header">
+			Mug for sale
+		</div>
+		<div class="sq-card-body">
+			picture
+		</div>
+		<div class="sq-card-footer sq-container sq-justify-right">
+			<button class="sq-btn" type="button" name="button">buy</button>
+		</div>
+	</div>
+	<div class="sq-p-card sq-card sq-panel">
+		<div class="sq-card-header">
+			Mug for sale
+		</div>
+		<div class="sq-card-body">
+			picture
+		</div>
+		<div class="sq-card-footer sq-container sq-justify-right">
+			<button class="sq-btn" type="button" name="button">buy</button>
+		</div>
+	</div>
 </div>
