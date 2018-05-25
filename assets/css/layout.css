@@ -113,6 +113,9 @@ border: 0px;
 .sq-justify-sb{
 	justify-content: space-between;
 }
+.sq.justify-se{
+	justify-content: space-around;
+}
 .sq-align-center{
 	align-items: center;
 	margin-top: auto;
