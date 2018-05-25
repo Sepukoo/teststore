@@ -11,7 +11,7 @@ border: 0px;
 }
 .sq-page{
   display: grid;
-  grid-template-rows: calc(var(--nav-element-height) * 3) 1fr var(--nav-element-height);
+  grid-template-rows: calc(var(--nav-element-height) * 3) 1fr;
   grid-template-columns: 1fr;
 }
 /* Navbar area */
@@ -55,10 +55,6 @@ border: 0px;
 .sq-grid-gap{grid-gap:1em;}
 /* Main Layout template end */
 /* Footer */
-.sq-footer{
-	grid-area: 3 / 1 / 4 / 2;
-	margin-top: 1rem;
-}
 /* Panels */
 .sq-panel{
     display:flex;
