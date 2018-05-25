@@ -1,5 +1,20 @@
-<div class="sq-main-layout">
-	<div class="sq-homepage-slideshow">
-		
+<div class="sq-main-layout sq-primary sq-grid-gap">
+	<div class="sq-homepage-slideshow sq-panel">
+	</div>
+	<div class="sq-homepage-infobar sq-panel">
+		<div class="sq-flex sq-justify-sb">
+			<div class="">
+
+			</div>
+			<div class="">
+
+			</div>
+			<div class="">
+
+			</div>
+
+			<div class="">
+			</div>
+		</div>
 	</div>
 </div>

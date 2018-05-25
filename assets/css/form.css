@@ -15,12 +15,12 @@
 .sq-form select,
 .sq-form textarea{
     max-width: 100%;
-    min-width:95%;
+    /* min-width:95%; */
     border:none;
-    border-top: solid .1em var(--background);
-    border-bottom: solid .1em var(--primary);
-    margin-bottom: 1rem;
-    padding: 0.5em;
+    border-top: solid 0.1rem var(--background);
+    border-bottom: solid 0.1rem var(--primary);
+    /* margin-bottom: 1rem; */
+    padding: 0.3rem;
     background-color: var(--background);
 }
 .sq-form label{

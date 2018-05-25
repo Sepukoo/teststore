@@ -61,7 +61,7 @@
     display: block;
     text-align: center;
     transition: all 0.5s ease-out;
-  }
+}
   /* Hover */
   .sq-button:hover{
     color: var(--text-base);

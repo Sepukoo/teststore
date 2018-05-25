@@ -22,7 +22,7 @@
     --muted: #999;
     --muted-highlight: #666;
     --divider: #d8d8d8;
-  
+
 	/* Shadows*/
 	--shadow-02: #00000002;
 	--shadow-05: #00000005;
@@ -106,5 +106,5 @@
     box-shadow: 0 0.875em 1.750em var(--shadow-19), 0 0.625em 0.625em var(--shadow-16);
   }
   .sq-shadow-xl{
-    box-shadow: 0 1.188em 2.375em var(--shadow-1E), 0 0.938em 0.750em var(--shadow-16);
+    box-shadow: 0 1.188emMugs with jugs 2.375em var(--shadow-1E), 0 0.938em 0.750em var(--shadow-16);
   }

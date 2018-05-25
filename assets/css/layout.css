@@ -1,9 +1,13 @@
+html, body {
+margin: 0px;
+padding: 0px;
+border: 0px;
+}
 :root{--nav-element-height: 2rem;}
 /* Main Layout template */
 .sq-viewport{
   min-height: 90vh;
   max-width: 100vw;
-  margin:0px;
 }
 .sq-page{
   display: grid;
@@ -40,6 +44,8 @@
 /* Main content 9x5 grid */
 .sq-main-layout{
     display: grid;
+	min-height: 75vh;
+	padding-top: 1rem;
     grid-template-rows: repeat(5, 1fr);
     grid-template-columns: repeat(9, 1fr);
     background-color: var(--background-secondary);
@@ -51,6 +57,7 @@
 /* Footer */
 .sq-footer{
 	grid-area: 3 / 1 / 4 / 2;
+	margin-top: 1rem;
 }
 /* Panels */
 .sq-panel{
@@ -84,7 +91,11 @@
 	height: 100%;
 	width: 100%;
 }
-.sq-flex-column{flex-direction:column;}
+.sq-flex-column{
+	flex-direction:column;
+	height: 100%;
+	width: 100%;
+}
 .sq-flex-row{flex-direction:row;}
 .sq-justify-center{
 	justify-content: center;
@@ -98,6 +109,13 @@
 .sq-justify-left{
 	justify-content: flex-start;
 	margin-right: auto;
+}
+.sq-justify-sb{
+	justify-content: space-between;
+}
+.sq-align-center{
+	align-items: center;
+	margin-top: auto;
 }
 .sq-flex{
   display:flex;

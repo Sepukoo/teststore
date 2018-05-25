@@ -1,3 +1,11 @@
+/* Destyling links */
+a, a:link, a:visited, a:active, a:hover {
+text-decoration: none;
+color:inherit;
+}
+
+
+
 /*  Text fonts */
 h1 {font-size: 1.8rem;}
 h2 {font-size: 1.6rem;}
@@ -52,7 +60,6 @@ p {font-size: 0.9rem;}
 .sq-text-right{text-align: right !important;}
 .sq-text-center{text-align: center !important;}
 .sq-text-justify{text-align: justify !important;}
-
 /* DropCaps */
 
 /* .sq-firstcharacter {

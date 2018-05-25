@@ -3,6 +3,13 @@
 /* Homepage */
 
 .sq-homepage-slideshow{
-	grid-area: 1 / 2 / span 2 / span 7;
+	grid-area: 1 / 2 / span 3 / span 7;
 	border: 1px solid black;
+}
+.sq-homepage-infobar{
+	grid-area: 4 / 2 / span 1 / span 7;
+	border-bottom: 1px solid black;
+}
+.sq-searchbar textarea{
+	width: 10rem;
 }

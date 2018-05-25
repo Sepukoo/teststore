@@ -11,19 +11,43 @@
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
-  <body class="sq-viewport">
+  <body class="sq-viewport sq-secondary">
 	  <div class="sq-page">
 		  <!-- Navbar -->
 		  <nav class="sq-nav-area">
 			  <div class="sq-navbar-layout">
-				  <div class="sq-navbar-nav">
-
+				  <div class="sq-navbar-nav sq-flex sq-justify-right">
+					<div class="sq-air-x-05">
+						<a href="#" class="sq-text-white sq-secondary sq-r-border sq-x-padding-05">Welcome to our store!</a>
+						<a href="#" class="sq-text-white sq-secondary sq-r-border sq-x-padding-05">Sign up for our newsletter</a>
+						<a href="#" class="sq-text-white sq-secondary sq-x-padding-05">Contact us</a>
+					</div>
 				  </div>
-				  <div class="sq-navbar-domain">
-
+				  <div class="sq-navbar-domain sq-flex sq-justify-right">
+					  <div class="sq-form">
+						  <input style="margin-right:10em; width: 25em;" class="sq-air-x-3" type="text" name="search" value="search">
+						  <button class="" type="button" name="button">Sign in</button>
+						  <button class="" type="button" name="button">Shopping cart</button>
+					  </div>
 				  </div>
-				  <div class="sq-navbar-links">
-
+				  <div class="sq-navbar-links sq-secondary-highlight">
+					  <div class="sq-flex sq-justify-sb">
+						  <div class="sq-r-border"></div>
+						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="#">All products </a>
+						  <div class="sq-r-border"></div>
+						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="#">Some really cool mugs </a>
+						  <div class="sq-r-border"></div>
+						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="#">Mugs with jugs </a>
+						  <div class="sq-r-border"></div>
+						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="#">Coffe mugs </a>
+						  <div class="sq-r-border"></div>
+						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="#">Team mugs </a>
+						  <div class="sq-r-border"></div>
+						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="#">Hipster decaf soy caramel frappuccino-only mugs </a>
+						  <div class="sq-r-border"></div>
+						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="#">Thermocromic mugs </a>
+						  <div class="sq-r-border"></div>
+					  </div>
 				  </div>
 			  </div>
 		  </nav>
