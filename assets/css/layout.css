@@ -94,7 +94,6 @@ border: 0px;
 .sq-flex-column{
 	flex-direction:column;
 	height: 100%;
-	width: 100%;
 }
 .sq-flex-row{flex-direction:row;}
 .sq-justify-center{
@@ -117,6 +116,10 @@ border: 0px;
 	align-items: center;
 	margin-top: auto;
 	margin-bottom: auto;
+}
+.sq-align-bottom{
+	align-items: flex-end;
+	margin-top: auto;
 }
 .sq-flex{
   display:flex;

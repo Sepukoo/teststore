@@ -1,3 +1,19 @@
 <div class="sq-main-layout">
-	
+	<div class="sq-p-search sq-panel sq-flex sq-flex-column sq-nav-search">
+		<input type="search" name="search" value="Search">
+		<div class="sq-form sq-flex sq-flex-row sq-align-center sq-b-border-3 sq-divider">
+			<button type="sort" name="button">rating</button>
+			<button type="sort" name="button">price</button>
+			<button type="sort" name="button">brand</button>
+			<button type="sort" name="button">news</button>
+			<button type="sort" name="button">popular</button>
+		</div>
+	</div>
+	<div class="sq-p-search sq-panel sq-flex sq-flex-row"></div>
+	<div class="sq-p-search sq-panel"></div>
+	<div class="sq-p-search sq-panel"></div>
+	<div class="sq-p-search sq-panel"></div>
+	<div class="sq-p-search sq-panel"></div>
+	<div class="sq-p-search sq-panel"></div>
+	<div class="sq-p-search sq-panel"></div>
 </div>
