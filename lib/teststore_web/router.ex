@@ -19,6 +19,7 @@ defmodule TeststoreWeb.Router do
     get "/", PageController, :index
 	get "/search", SearchController, :index
 	get "/about", AboutController, :index
+	get "/user", UserController, :index
   end
 
   # Other scopes may use custom stacks.
