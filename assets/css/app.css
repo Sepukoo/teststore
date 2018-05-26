@@ -61,3 +61,10 @@
 	grid-column-end: span 2;
 	grid-row-end: span 2;
 }
+
+.sq-employee-card img{
+    display: block;
+    height: calc(100vw / 10);
+    width: calc(100vw / 10);
+    /* border-radius: 50% 50% 50% 50%; */
+}
