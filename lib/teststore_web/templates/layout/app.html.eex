@@ -23,12 +23,10 @@
 						<a href="#" class="sq-text-white sq-secondary sq-x-padding-05">Contact us</a>
 					</div>
 				  </div>
-				  <div class="sq-navbar-domain sq-flex sq-justify-right">
-					  <div class="sq-form">
-						  <input style="margin-right:10em; width: 25em;" class="sq-air-x-3" type="text" name="search" value="search">
-						  <button class="" type="button" name="button">Sign in</button>
-						  <button class="" type="button" name="button">Shopping cart</button>
-					  </div>
+				  <div class="sq-navbar-domain sq-flex sq-justify-right sq-align-center">
+					<input style="margin-right:10em; width: 25em;" type="psearch" name="search" value="search">
+					<button class="sq-btn sq-air-x-05" type="button" name="button">Sign in</button>
+					<button class="sq-btn sq-air-x-1" type="button" name="button">Shopping cart</button>
 				  </div>
 				  <div class="sq-navbar-links sq-secondary-highlight">
 					  <div class="sq-flex sq-justify-sb">
@@ -55,7 +53,7 @@
 		  <main class="sq-main">
 			  <%= render @view_module, @view_template, assigns %>
 		  </main>
-		  <footer class=""></footer>
+		  <footer class="sq-footer"></footer>
 	  </div>
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>

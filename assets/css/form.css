@@ -14,12 +14,12 @@
 [type=time],
 .sq-form select,
 .sq-form textarea{
-    /* max-width: 100%;
-    min-width:95%; */
+    max-width: 100%;
+    /* min-width:95%; */
     border:none;
     border-top: solid 0.1rem var(--background);
     border-bottom: solid 0.1rem var(--primary);
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     padding: 0.3rem;
     background-color: var(--background);
 }
@@ -40,7 +40,8 @@
     border: none;
     cursor: pointer;
     text-align: center;
-    background-color:var(--background);
+    background-color: inherit;
+	color: inherit;
     padding:0;
     margin:0;
 }
@@ -49,11 +50,11 @@
     -moz-box-shadow:    inset 1px 1px 10px var(--text-base);
     box-shadow:         inset 1px 1px 10px var(--text-base);
 }
-.sq-form input[type=button], input[type=submit], input[type=reset], button[type=button], button[type=submit], button[type=reset] {
-    background-color: var(--success);
+.sq-form input[type=button], .sq-form input[type=submit], .sq-form input[type=reset], .sq-form button[type=button], .sq-form button[type=submit], .sq-form button[type=reset] {
+    background-color: var(--secondary);
     border: none;
     color: var(--white);
-    padding: 0.5rem 2rem;
+    padding: 0.2rem 2rem;
     text-decoration: none;
     margin: 0.2rem;
     cursor: pointer;
