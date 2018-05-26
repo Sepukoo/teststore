@@ -1,29 +1,23 @@
 /* This file is for your main application css. */
-
-/* Homepage */
-
-.sq-homepage-slideshow{
-	grid-area: 1 / 2 / span 3 / span 8;
+/* Navbar specifics */
+.sq-nav-search [type=psearch]{
+	border: none;
+    background-color: var(--background);
+	margin-top: 0.2rem;
+	max-width: 80%;
 }
+/* Homepage panels*/
+
+.sq-homepage-slideshow{grid-area: 1 / 2 / span 3 / span 8;}
 .sq-homepage-infobar{
 	grid-area: 4 / 2/ span 1 / span 8;
 	border-bottom: 1px solid black;
 }
-.sq-homepage-campaign1{
-	grid-area: 5 / 2 / span 1 / span 4;
-}
+.sq-homepage-campaign1{grid-area: 5 / 2 / span 1 / span 4;}
 
-.sq-homepage-campaign2{
-	grid-area: 5 / 6 / span 1 / span 4;
-}
+.sq-homepage-campaign2{grid-area: 5 / 6 / span 1 / span 4;}
 
-
-
-.sq-searchbar textarea{
-	width: 10rem;
-}
-
-
+/* Product cards */
 .sq-p-card{
 	grid-column-end: span 2;
 	grid-row-end: span 2;
@@ -42,4 +36,18 @@
 }
 .sq-p-card:nth-child(4n+1){
 	grid-column-start: 2;
+}
+
+.sq-p-search{
+	grid-column-start: 2;
+	grid-column-end: span 8;
+	grid-row-end: span 1;
+}
+.sq-form button[type=sort]{
+	padding: 1rem 2rem;
+    text-decoration: none;
+    margin: 0.2rem;
+    cursor: pointer;
+	border: none;
+	width: calc(100vw / 8);
 }

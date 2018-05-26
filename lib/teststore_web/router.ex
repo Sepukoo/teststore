@@ -17,6 +17,7 @@ defmodule TeststoreWeb.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+	get"/search", SearchController, :index
   end
 
   # Other scopes may use custom stacks.
