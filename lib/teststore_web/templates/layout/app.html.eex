@@ -29,26 +29,26 @@
 			</fieldset>
 	  </div>
 	  <!-- Register section 1 modal -->
-	  	  <div id="reguser1" class="sq-modal">
-	  		<fieldset class="sq-modal-content sq-form sq-secondary-highlight">
-	  			<a class="sq-close" href="#">&times;</a>
-	  			<form class="sq-form sq-flex-column" action="index.html" method="post">
-	  				<p class="sq-text-center">Register</p>
-	  				<label>Country</label>
-	  	            <input type="text" name="" value="" placeholder="Country">
-	  	            <label>First Name</label>
-	  	            <input type="text" name="" value="" placeholder="First name">
-	  	            <label>Last name</label>
-	  				<input type="text" name="" value="" placeholder="Last name">
-	  				<label>Date of birth</label>
-	  	        	<input type="date" name="" value="">
-	  		    	<div class=" sq-container">
-	  			    	<a href="#" class="fakebtn sq-justify-left">Cancel</a>
-	  					<a href="#reguser2" class="fakebtn sq-justify-right">Rext</a>
-	  				</div>
-	  		    </form>
-	  		</fieldset>
-	  	</div>
+  	  <div id="reguser1" class="sq-modal">
+  		<fieldset class="sq-modal-content sq-form sq-secondary-highlight">
+  			<a class="sq-close" href="#">&times;</a>
+  			<form class="sq-form sq-flex-column" action="index.html" method="post">
+  				<p class="sq-text-center">Register</p>
+  				<label>Country</label>
+  	            <input type="text" name="" value="" placeholder="Country">
+  	            <label>First Name</label>
+  	            <input type="text" name="" value="" placeholder="First name">
+  	            <label>Last name</label>
+  				<input type="text" name="" value="" placeholder="Last name">
+  				<label>Date of birth</label>
+  	        	<input type="date" name="" value="">
+  		    	<div class=" sq-container">
+  			    	<a href="#" class="fakebtn sq-justify-left">Cancel</a>
+  					<a href="#reguser2" class="fakebtn sq-justify-right">Rext</a>
+  				</div>
+  		    </form>
+  		</fieldset>
+  	</div>
 		 <!-- Register section 2 modal -->
    	  	  <div id="reguser2" class="sq-modal">
    	  		<fieldset class="sq-modal-content sq-form sq-secondary-highlight">
@@ -110,19 +110,19 @@
 				  <div class="sq-navbar-links sq-secondary-highlight">
 					  <div class="sq-flex sq-justify-sb">
 						  <div class="sq-r-border"></div>
-						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="#">All products </a>
+						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="/">All products </a>
 						  <div class="sq-r-border"></div>
-						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="#">Some really cool mugs </a>
+						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="/search">Some really cool mugs </a>
 						  <div class="sq-r-border"></div>
-						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="#">Mugs with jugs </a>
+						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="/search">Mugs with jugs </a>
 						  <div class="sq-r-border"></div>
-						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="#">Coffe mugs </a>
+						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="/search">Coffe mugs </a>
 						  <div class="sq-r-border"></div>
-						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="#">Team mugs </a>
+						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="/search">Team mugs </a>
 						  <div class="sq-r-border"></div>
-						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="#">Hipster decaf soy caramel frappuccino-only mugs </a>
+						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="/search">Hipster decaf soy caramel frappuccino-only mugs </a>
 						  <div class="sq-r-border"></div>
-						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="#">Thermocromic mugs </a>
+						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="/search">Thermocromic mugs </a>
 						  <div class="sq-r-border"></div>
 					  </div>
 				  </div>
