@@ -1,4 +1,4 @@
-<div class="sq-main-layout sq-grid-gap">
+<div class="sq-main-layout sq-primary sq-grid-gap">
 	<div class="sq-about-panel sq-panel sq-black sq-flex-column">
 		<h1 class="sq-text-capitalize sq-justify-center">About weekendstore</h1>
 		<p>
@@ -23,11 +23,7 @@
 			Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
 		</p>
 	</div>
-	<div class="sq-employee-card sq-panel"></div>
-	<div class="sq-employee-card sq-panel"></div>
-	<div class="sq-employee-card sq-panel"></div>
-	<div class="sq-p-card sq-panel"></div>
-	<div class="sq-p-card sq-panel"></div>
-	<div class="sq-p-card sq-panel"></div>
-	<div class="sq-p-card sq-panel"></div>
+	<div class="sq-employee-card sq-panel"><img src="/images/youjo_senki_06.png"></div>
+	<div class="sq-employee-card sq-panel"><img src="/images/youjo_senki_07.png"></div>
+	<div class="sq-employee-card sq-panel"><img src="/images/youjo_senki_08.png"></div>
 </div>

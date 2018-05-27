@@ -12,6 +12,37 @@
   </head>
 
   <body class="sq-viewport sq-secondary">
+	  <!-- Login modal -->
+	  <div id="login" class="sq-modal">
+			<fieldset class="sq-modal-content sq-form sq-secondary-highlight">
+				  <a class="sq-close" href="#">&times;</a>
+				  <form class="sq-form sq-flex-column" action="index.html" method="post">
+					  <p class="sq-text-center">Login</p>
+					  <input type="email" name="" value="" placeholder="E-mail">
+					  <input type="password" name="" value="" placeholder="Password">
+			      <div class=" sq-container">
+					<button class="sq-justify-left" type="submit" name="">Login</button>
+					<a href="#reguser1" class="fakebtn sq-justify-right">register</a>
+			      </div>
+			    </form>
+			</fieldset>
+	  </div>
+	  <!-- Register section 1 modal -->
+	  <div id="reguser1" class="sq-modal">
+			<fieldset class="sq-modal-content sq-form sq-secondary-highlight">
+				  <a class="sq-close" href="#">&times;</a>
+				  <form class="sq-form sq-flex-column" action="index.html" method="post">
+					  <p class="sq-text-center">Register</p>
+					  <input type="email" name="" value="" placeholder="E-mail">
+					  <input type="password" name="" value="" placeholder="Password">
+			      <div class=" sq-container">
+			        <a href="#" class="fakebtn sq-justify-left">Cancel</a>
+					<a href="#reguser2" class="fakebtn sq-justify-right">Rext</a>
+			      </div>
+			    </form>
+			</fieldset>
+	  </div>
+
 	  <div class="sq-page">
 		  <!-- Navbar -->
 		  <nav class="sq-nav-area">
@@ -23,9 +54,10 @@
 						<a href="#" class="sq-text-white sq-secondary sq-x-padding-05">Contact us</a>
 					</div>
 				  </div>
-				  <div class="sq-navbar-domain sq-flex sq-justify-right sq-align-center">
-					<input style="margin-right:10em; width: 25em;" type="psearch" name="search" value="search">
-					<button class="sq-btn sq-air-x-05" type="button" name="button">Sign in</button>
+				  <div class="sq-navbar-domain sq-flex sq-justify-right sq-align-center sq-nav-search">
+					<input style="margin-right:10em;" type="psearch" name="search" value="search">
+					<a class="sq-air-x-05" href="#login">Login</a>
+					<!-- <button class="sq-btn sq-air-x-05" type="button" name="button">Sign in</button> -->
 					<button class="sq-btn sq-air-x-1" type="button" name="button">Shopping cart</button>
 				  </div>
 				  <div class="sq-navbar-links sq-secondary-highlight">
