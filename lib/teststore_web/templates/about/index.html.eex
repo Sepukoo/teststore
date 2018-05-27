@@ -1,4 +1,4 @@
-<div class="sq-main-layout sq-grid-gap">
+<div class="sq-main-layout sq-primary sq-grid-gap">
 	<div class="sq-about-panel sq-panel sq-black sq-flex-column">
 		<h1 class="sq-text-capitalize sq-justify-center">About weekendstore</h1>
 		<p>

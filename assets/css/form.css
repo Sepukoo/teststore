@@ -50,7 +50,7 @@
     -moz-box-shadow:    inset 1px 1px 10px var(--text-base);
     box-shadow:         inset 1px 1px 10px var(--text-base);
 }
-.sq-form input[type=button], .sq-form input[type=submit], .sq-form input[type=reset], .sq-form button[type=button], .sq-form button[type=submit], .sq-form button[type=reset] {
+.sq-form .fakebtn,.sq-form input[type=button], .sq-form input[type=submit], .sq-form input[type=reset], .sq-form button[type=button], .sq-form button[type=submit], .sq-form button[type=reset] {
     background-color: var(--secondary);
     border: none;
     color: var(--white);

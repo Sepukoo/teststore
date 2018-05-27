@@ -92,10 +92,14 @@ border: 0px;
 	width: 100%;
 }
 .sq-flex-column{
+	display: flex;
 	flex-direction:column;
-	height: 100%;
 }
-.sq-flex-row{flex-direction:row;}
+.sq-flex-row{
+	display: flex;
+	flex-direction:row;
+	width: 100%
+}
 .sq-justify-center{
 	justify-content: center;
 	margin-left: auto;
@@ -111,6 +115,9 @@ border: 0px;
 }
 .sq-justify-sb{
 	justify-content: space-between;
+}
+.sq-justify-sa{
+	justify-content: space-around;
 }
 .sq-align-center{
 	align-items: center;

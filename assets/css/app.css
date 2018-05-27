@@ -5,6 +5,8 @@
     background-color: var(--background);
 	margin-top: 0.2rem;
 	max-width: 80%;
+	min-width: 25em;
+	height: 80%;
 }
 /* Homepage panels*/
 
@@ -67,4 +69,25 @@
     height: calc(100vw / 10);
     width: calc(100vw / 10);
     /* border-radius: 50% 50% 50% 50%; */
+}
+
+
+/* Searchbar products */
+.sq-toolcard-products{
+	display: grid;
+    grid-template-rows: 1fr 5% 1fr;
+    grid-template-columns: 1fr;
+    box-shadow: 0 4px 8px 0 var(--shadow-02);
+    transition: 0.3s;
+    margin:.5rem;
+}
+
+/* login / userpanel */
+.sq-loginpanel{
+	display: flex;
+	height: 100%;
+	width: 100%;
+	justify-content:center;
+	align-content: center;
+	background-color: var(--shadow-1E);
 }
