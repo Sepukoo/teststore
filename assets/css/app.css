@@ -91,3 +91,8 @@
 	align-content: center;
 	background-color: var(--shadow-1E);
 }
+
+/* index page  */
+.sq-grid-position-box{
+	grid-area: 1 / 2 / span 2 / span 7;
+  }
